@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		254679A9B0C22AC26D43B37E /* Pods_LOLocationPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713513CEFA960456CB7C8FDE /* Pods_LOLocationPicker.framework */; };
+		F02CDE481D5AB8CB00812590 /* LOLocationPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = F02CDE471D5AB8CB00812590 /* LOLocationPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F06CCD3D1D5ABFE6007A8C0F /* LOLocationPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06CCD3B1D5ABFE6007A8C0F /* LOLocationPickerViewController.swift */; };
+		F06CCD3E1D5ABFE6007A8C0F /* LOLocationPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F06CCD3C1D5ABFE6007A8C0F /* LOLocationPickerViewController.xib */; };
+		F06CCD401D5AC09A007A8C0F /* LOLocationPickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06CCD3F1D5AC09A007A8C0F /* LOLocationPickerDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		713513CEFA960456CB7C8FDE /* Pods_LOLocationPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LOLocationPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80B9C42469D52E5F687AACCA /* Pods-LOLocationPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LOLocationPicker.release.xcconfig"; path = "Pods/Target Support Files/Pods-LOLocationPicker/Pods-LOLocationPicker.release.xcconfig"; sourceTree = "<group>"; };
+		D9F4723AE2A9F3F99B9AA5C5 /* Pods-LOLocationPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LOLocationPicker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LOLocationPicker/Pods-LOLocationPicker.debug.xcconfig"; sourceTree = "<group>"; };
+		F02CDE441D5AB8CB00812590 /* LOLocationPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LOLocationPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F02CDE471D5AB8CB00812590 /* LOLocationPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LOLocationPicker.h; sourceTree = "<group>"; };
+		F02CDE491D5AB8CB00812590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F06CCD3B1D5ABFE6007A8C0F /* LOLocationPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LOLocationPickerViewController.swift; sourceTree = "<group>"; };
+		F06CCD3C1D5ABFE6007A8C0F /* LOLocationPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LOLocationPickerViewController.xib; sourceTree = "<group>"; };
+		F06CCD3F1D5AC09A007A8C0F /* LOLocationPickerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LOLocationPickerDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F02CDE401D5AB8CB00812590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254679A9B0C22AC26D43B37E /* Pods_LOLocationPicker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		069DD8E26C51B7A5E5470DC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				713513CEFA960456CB7C8FDE /* Pods_LOLocationPicker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3305E681E39DB85EE88AA074 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9F4723AE2A9F3F99B9AA5C5 /* Pods-LOLocationPicker.debug.xcconfig */,
+				80B9C42469D52E5F687AACCA /* Pods-LOLocationPicker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F02CDE3A1D5AB8CB00812590 = {
+			isa = PBXGroup;
+			children = (
+				F02CDE461D5AB8CB00812590 /* LOLocationPicker */,
+				F02CDE451D5AB8CB00812590 /* Products */,
+				3305E681E39DB85EE88AA074 /* Pods */,
+				069DD8E26C51B7A5E5470DC9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F02CDE451D5AB8CB00812590 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F02CDE441D5AB8CB00812590 /* LOLocationPicker.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F02CDE461D5AB8CB00812590 /* LOLocationPicker */ = {
+			isa = PBXGroup;
+			children = (
+				F02CDE471D5AB8CB00812590 /* LOLocationPicker.h */,
+				F06CCD3B1D5ABFE6007A8C0F /* LOLocationPickerViewController.swift */,
+				F06CCD3F1D5AC09A007A8C0F /* LOLocationPickerDelegate.swift */,
+				F06CCD3C1D5ABFE6007A8C0F /* LOLocationPickerViewController.xib */,
+				F02CDE491D5AB8CB00812590 /* Info.plist */,
+			);
+			path = LOLocationPicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F02CDE411D5AB8CB00812590 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F02CDE481D5AB8CB00812590 /* LOLocationPicker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F02CDE431D5AB8CB00812590 /* LOLocationPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F02CDE4C1D5AB8CB00812590 /* Build configuration list for PBXNativeTarget "LOLocationPicker" */;
+			buildPhases = (
+				1C0EB3331C9877FD8871A9C3 /* [CP] Check Pods Manifest.lock */,
+				F02CDE3F1D5AB8CB00812590 /* Sources */,
+				F02CDE401D5AB8CB00812590 /* Frameworks */,
+				F02CDE411D5AB8CB00812590 /* Headers */,
+				F02CDE421D5AB8CB00812590 /* Resources */,
+				3FFEBF313791B677FA8F60EB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LOLocationPicker;
+			productName = LOLocationPicker;
+			productReference = F02CDE441D5AB8CB00812590 /* LOLocationPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F02CDE3B1D5AB8CB00812590 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Leonardo Oliveira";
+				TargetAttributes = {
+					F02CDE431D5AB8CB00812590 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = F02CDE3E1D5AB8CB00812590 /* Build configuration list for PBXProject "LOLocationPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F02CDE3A1D5AB8CB00812590;
+			productRefGroup = F02CDE451D5AB8CB00812590 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F02CDE431D5AB8CB00812590 /* LOLocationPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F02CDE421D5AB8CB00812590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06CCD3E1D5ABFE6007A8C0F /* LOLocationPickerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C0EB3331C9877FD8871A9C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3FFEBF313791B677FA8F60EB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LOLocationPicker/Pods-LOLocationPicker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F02CDE3F1D5AB8CB00812590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06CCD401D5AC09A007A8C0F /* LOLocationPickerDelegate.swift in Sources */,
+				F06CCD3D1D5ABFE6007A8C0F /* LOLocationPickerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F02CDE4A1D5AB8CB00812590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F02CDE4B1D5AB8CB00812590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F02CDE4D1D5AB8CB00812590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9F4723AE2A9F3F99B9AA5C5 /* Pods-LOLocationPicker.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LOLocationPicker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Leonardo-Oliveira.LOLocationPicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F02CDE4E1D5AB8CB00812590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80B9C42469D52E5F687AACCA /* Pods-LOLocationPicker.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LOLocationPicker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Leonardo-Oliveira.LOLocationPicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F02CDE3E1D5AB8CB00812590 /* Build configuration list for PBXProject "LOLocationPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F02CDE4A1D5AB8CB00812590 /* Debug */,
+				F02CDE4B1D5AB8CB00812590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F02CDE4C1D5AB8CB00812590 /* Build configuration list for PBXNativeTarget "LOLocationPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F02CDE4D1D5AB8CB00812590 /* Debug */,
+				F02CDE4E1D5AB8CB00812590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F02CDE3B1D5AB8CB00812590 /* Project object */;
+}
